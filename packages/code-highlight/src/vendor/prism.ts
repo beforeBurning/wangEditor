@@ -24,6 +24,8 @@ import 'prismjs/components/prism-bash'
 import 'prismjs/components/prism-markdown'
 import 'prismjs/components/prism-lua'
 import 'prismjs/components/prism-groovy'
+// 二次添加
+import 'prismjs/components/prism-docker'
 // 语言模块，参考 https://github.com/PrismJS/prism/tree/master/components
 
 // prismjs 的 token 类型汇总

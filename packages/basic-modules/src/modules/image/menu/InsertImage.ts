@@ -51,7 +51,8 @@ class InsertImage implements IModalMenu {
   }
 
   isDisabled(editor: IDomEditor): boolean {
-    return isInsertImageMenuDisabled(editor)
+    // return isInsertImageMenuDisabled(editor)
+    return false
   }
 
   getModalPositionNode(editor: IDomEditor): Node | null {
@@ -116,7 +117,7 @@ class InsertImage implements IModalMenu {
     // 还原选区
     editor.restoreSelection()
 
-    if (this.isDisabled(editor)) return
+    // if (this.isDisabled(editor)) return
 
     // 插入图片
     insertImageNode(editor, src, alt, href)
